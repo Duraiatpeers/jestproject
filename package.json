@@ -1,0 +1,24 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest test"
+  },
+  "author": "Durai",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "babel-jest": "^26.3.0",
+    "babel7-jest": "^1.0.1",
+    "jest": "^26.4.0",
+    "jest-playwright": "0.0.1",
+    "playwright": "^1.3.0"
+  },
+  "type": "module",
+  "jest": {
+    "verbose": true
+  }
+}
