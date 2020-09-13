@@ -1,5 +1,5 @@
 
-export class LoginPage{
+export class UserPage{
 
     name;
     password;

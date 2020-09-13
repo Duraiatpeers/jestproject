@@ -1,19 +1,22 @@
-import { load, close, getTitle } from './demopage.js';
 
-describe("Google", () => {
+import {fetchUser} from './demo1.js';
 
-    beforeEach(async () => {
-        await load();
-    });
 
-    
-    it("should be titled 'Google'", async () => {
-        expect(await getTitle()).toBe('Google');
-    });
 
-    afterEach(async () => {
-        await close();
-    });
 
-});
+describe('',()=>{
+    it('',async()=>{
 
+        await fetchUser()
+        .then(user => {
+            console.log(user);
+            console.log("User id : "+user.data.id)
+            console.log("User mail :"+user.data.email)
+        })
+        .catch(error => {
+            console.log(error)
+        });
+        
+
+    })
+})

@@ -4,7 +4,7 @@
   "description": "Demo",
   "main": "index.js",
   "scripts": {
-    "test": "jest test"
+    "test": "jest"
   },
   "author": "Durai",
   "license": "ISC",
@@ -15,10 +15,11 @@
     "babel7-jest": "^1.0.1",
     "jest": "^26.4.0",
     "jest-playwright": "0.0.1",
+    "node-fetch": "^2.6.1",
     "playwright": "^1.3.0"
   },
   "type": "module",
-  "jest": {
-    "verbose": true
+  "devDependencies": {
+    "supertest": "^4.0.2"
   }
 }
